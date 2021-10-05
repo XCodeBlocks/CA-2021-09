@@ -44,7 +44,7 @@ public class HWFat_Class {
 		
 		/*(필드값 초기화와 생성자 동작 순서 확인용):
 		Allocation_order_test test = new Allocation_order_test(8, 3);
-		test.testPrint();
+		test.testPrint();		//(결과: 0, 0)
 		*/
 	}
 }
