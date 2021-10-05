@@ -42,5 +42,9 @@ public class HWFat_Class {
 			sc.nextLine();	//(버퍼 비우기용: 이 줄이 빠지면 뭔가 다른 게 입력된 것으로 간주해서 바로 종료됨. 이걸 하고나면 입력값이 없으니 입력 대기 상태가 됨.)
 		} while ( sc.nextLine().equals("yes") ) ;		//(no 등의 다른 내용을 입력하면 종료)
 		
+		/*(필드값 초기화와 생성자 동작 순서 확인용):
+		Allocation_order_test test = new Allocation_order_test(8, 3);
+		test.testPrint();
+		*/
 	}
 }
